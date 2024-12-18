@@ -1,10 +1,13 @@
 import {insertProject, selectProjects} from "../dao/ProjectsDao";
-import {Project} from "../types";
+import {v1 as uuid} from "uuid";
+import {Project} from "../types/Project";
 
 export async function listProjects() {
   return selectProjects()
 }
 
-export async function addProject(project: Project) {
-  return insertProject(project)
+export async function addProject(name: string) {
+  const project: Project = {id: uuid(), name};
+  await insertProject(project)
+  return project;
 }

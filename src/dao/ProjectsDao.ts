@@ -1,5 +1,5 @@
 import {connectDB} from "../utils/utils";
-import {Project} from "../types";
+import {Project} from "../types/Project";
 
 
 export async function selectProjects() {

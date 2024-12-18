@@ -1,3 +1,124 @@
 {
-  "projects": []
+  "projects": [
+    {
+      "id": "9d6d9770-bd16-11ef-a9a0-a35a8e77ad9b",
+      "name": "社会治安治理",
+      "processes": [
+        {
+          "id": "876e3360-bd59-11ef-b5aa-595dbc6940cf",
+          "fileId": "876e0c51-bd59-11ef-b5aa-595dbc6940cf",
+          "steps": [
+            "DataCleaning",
+            "DataTransformation",
+            "DataCompression"
+          ],
+          "filename": "讲稿.docx",
+          "status": 3
+        },
+        {
+          "id": "876e0c52-bd59-11ef-b5aa-595dbc6940cf",
+          "fileId": "876e0c50-bd59-11ef-b5aa-595dbc6940cf",
+          "steps": [
+            "DataCleaning",
+            "DataTransformation",
+            "DataCompression"
+          ],
+          "filename": "工作日报.docx",
+          "status": 3
+        },
+        {
+          "id": "2ee7fff2-bd59-11ef-b5aa-595dbc6940cf",
+          "fileId": "2ee7fff0-bd59-11ef-b5aa-595dbc6940cf",
+          "steps": [
+            "DataCleaning",
+            "DataCompression",
+            "DataEncryption"
+          ],
+          "filename": "身份证复印件_徐瀚.pdf",
+          "status": 3
+        },
+        {
+          "id": "2ee7fff1-bd59-11ef-b5aa-595dbc6940cf",
+          "fileId": "2ee7d8e0-bd59-11ef-b5aa-595dbc6940cf",
+          "steps": [
+            "DataCleaning",
+            "DataCompression",
+            "DataEncryption"
+          ],
+          "filename": "人才实训协议_徐瀚.pdf",
+          "status": 3
+        },
+        {
+          "id": "09053552-bd59-11ef-b5aa-595dbc6940cf",
+          "fileId": "09053550-bd59-11ef-b5aa-595dbc6940cf",
+          "steps": [
+            "DataCleaning",
+            "DataCompression",
+            "DataEncryption"
+          ],
+          "filename": "身份证复印件_徐瀚.pdf",
+          "status": 3
+        },
+        {
+          "id": "09053551-bd59-11ef-b5aa-595dbc6940cf",
+          "fileId": "09050e40-bd59-11ef-b5aa-595dbc6940cf",
+          "steps": [
+            "DataCleaning",
+            "DataCompression",
+            "DataEncryption"
+          ],
+          "filename": "人才实训协议_徐瀚.pdf",
+          "status": 3
+        },
+        {
+          "id": "925b34f1-bd57-11ef-b5aa-595dbc6940cf",
+          "fileId": "925b34f0-bd57-11ef-b5aa-595dbc6940cf",
+          "steps": [
+            "DataCleaning",
+            "DataTransformation",
+            "DataEncryption"
+          ],
+          "filename": "教育部学历证书电子注册备案表_徐瀚.pdf",
+          "status": 3
+        }
+      ],
+      "files": [
+        {
+          "id": "925b34f0-bd57-11ef-b5aa-595dbc6940cf",
+          "path": "/1734536944071-教育部学历证书电子注册备案表_徐瀚.pdf",
+          "name": "教育部学历证书电子注册备案表_徐瀚.pdf"
+        },
+        {
+          "id": "09050e40-bd59-11ef-b5aa-595dbc6940cf",
+          "path": "/1734537570836-人才实训协议_徐瀚.pdf",
+          "name": "人才实训协议_徐瀚.pdf"
+        },
+        {
+          "id": "09053550-bd59-11ef-b5aa-595dbc6940cf",
+          "path": "/1734537571694-身份证复印件_徐瀚.pdf",
+          "name": "身份证复印件_徐瀚.pdf"
+        },
+        {
+          "id": "2ee7d8e0-bd59-11ef-b5aa-595dbc6940cf",
+          "path": "/1734537634867-人才实训协议_徐瀚.pdf",
+          "name": "人才实训协议_徐瀚.pdf"
+        },
+        {
+          "id": "2ee7fff0-bd59-11ef-b5aa-595dbc6940cf",
+          "path": "/1734537637287-身份证复印件_徐瀚.pdf",
+          "name": "身份证复印件_徐瀚.pdf"
+        },
+        {
+          "id": "876e0c50-bd59-11ef-b5aa-595dbc6940cf",
+          "path": "/1734537780854-工作日报.docx",
+          "name": "工作日报.docx"
+        },
+        {
+          "id": "876e0c51-bd59-11ef-b5aa-595dbc6940cf",
+          "path": "/1734537781283-讲稿.docx",
+          "name": "讲稿.docx"
+        }
+      ]
+    }
+  ]
 }
