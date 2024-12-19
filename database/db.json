@@ -5,6 +5,38 @@
       "name": "社会治安治理",
       "processes": [
         {
+          "id": "69607e81-bdb0-11ef-8c56-b964988ecdae",
+          "fileId": "69607e80-bdb0-11ef-8c56-b964988ecdae",
+          "steps": [
+            "DataCleaning",
+            "DataCompression"
+          ],
+          "filename": "工作日报.docx",
+          "status": 2
+        },
+        {
+          "id": "41b1c723-bda8-11ef-8c56-b964988ecdae",
+          "fileId": "41b1c721-bda8-11ef-8c56-b964988ecdae",
+          "steps": [
+            "DataCleaning",
+            "DataTransformation",
+            "DataEncryption"
+          ],
+          "filename": "实习工作内容总结回顾.docx",
+          "status": 3
+        },
+        {
+          "id": "41b1c722-bda8-11ef-8c56-b964988ecdae",
+          "fileId": "41b1c720-bda8-11ef-8c56-b964988ecdae",
+          "steps": [
+            "DataCleaning",
+            "DataTransformation",
+            "DataEncryption"
+          ],
+          "filename": "实习个人自评.docx",
+          "status": 3
+        },
+        {
           "id": "876e3360-bd59-11ef-b5aa-595dbc6940cf",
           "fileId": "876e0c51-bd59-11ef-b5aa-595dbc6940cf",
           "steps": [
@@ -117,6 +149,21 @@
           "id": "876e0c51-bd59-11ef-b5aa-595dbc6940cf",
           "path": "/1734537781283-讲稿.docx",
           "name": "讲稿.docx"
+        },
+        {
+          "id": "41b1c721-bda8-11ef-8c56-b964988ecdae",
+          "path": "/1734571594286-实习工作内容总结回顾.docx",
+          "name": "实习工作内容总结回顾.docx"
+        },
+        {
+          "id": "41b1c720-bda8-11ef-8c56-b964988ecdae",
+          "path": "/1734571597330-实习个人自评.docx",
+          "name": "实习个人自评.docx"
+        },
+        {
+          "id": "69607e80-bdb0-11ef-8c56-b964988ecdae",
+          "path": "/1734575095880-工作日报.docx",
+          "name": "工作日报.docx"
         }
       ]
     }
