@@ -3,83 +3,1199 @@
     {
       "id": "9d6d9770-bd16-11ef-a9a0-a35a8e77ad9b",
       "name": "社会治安治理",
-      "processes": [
-        {
-          "id": "2f733ab1-bfa3-11ef-b8d5-adb73bfb2f93",
-          "fileId": "2f733ab0-bfa3-11ef-b8d5-adb73bfb2f93",
-          "steps": [
-            "DataCleaning",
-            "DataCompression"
-          ],
-          "filename": "示例文档.docx",
-          "status": 2
-        },
-        {
-          "id": "d1175870-bfa2-11ef-b8d5-adb73bfb2f93",
-          "fileId": "d1173160-bfa2-11ef-b8d5-adb73bfb2f93",
-          "steps": [
-            "DataCleaning",
-            "DataCompression"
-          ],
-          "filename": "示例文档.docx",
-          "status": 2
-        },
-        {
-          "id": "bb92ec30-bfa2-11ef-b8d5-adb73bfb2f93",
-          "fileId": "bb92c520-bfa2-11ef-b8d5-adb73bfb2f93",
-          "steps": [
-            "DataCleaning",
-            "DataEncryption"
-          ],
-          "filename": "示例文档.docx",
-          "status": 2
-        },
-        {
-          "id": "7978dab0-be96-11ef-b81a-4f75fc94629b",
-          "fileId": "7978b3a0-be96-11ef-b81a-4f75fc94629b",
-          "steps": [
-            "DataCleaning"
-          ],
-          "filename": "燃油车.glb",
-          "status": 1
-        },
-        {
-          "id": "39ca4b51-bdd4-11ef-ae21-67a90376b226",
-          "fileId": "39ca4b50-bdd4-11ef-ae21-67a90376b226",
-          "steps": [
-            "DataCleaning"
-          ],
-          "filename": "讲稿.docx",
-          "status": 1
-        },
-        {
-          "id": "33ca5831-bdd4-11ef-ae21-67a90376b226",
-          "fileId": "33ca5830-bdd4-11ef-ae21-67a90376b226",
-          "steps": [],
-          "filename": "工作日报.docx",
-          "status": 0
-        }
-      ],
-      "files": [
-        {
-          "id": "33ca5830-bdd4-11ef-ae21-67a90376b226",
-          "path": "/1734590457240-工作日报.docx",
-          "name": "工作日报.docx"
-        },
-        {
-          "id": "39ca4b50-bdd4-11ef-ae21-67a90376b226",
-          "path": "/1734590472024-讲稿.docx",
-          "name": "讲稿.docx"
-        },
-        {
-          "id": "7978b3a0-be96-11ef-b81a-4f75fc94629b",
-          "path": "/1734673900993-燃油车.glb",
-          "name": "燃油车.glb"
-        }
-      ],
+      "processes": [],
+      "files": [],
       "models": [],
       "diagrams": {
-        "cells": []
+        "cells": [
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "stroke": "#A2B1C3",
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "c5353703-fb30-43f8-85c1-0bb3c41f5a1a",
+            "zIndex": 0,
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "管理"
+                  }
+                }
+              }
+            ],
+            "source": {
+              "cell": "d50f0beb-70f2-4d2b-88e2-c105890f9279",
+              "port": "3835dc1f-d390-4aeb-b434-988745dd90b4"
+            },
+            "target": {
+              "cell": "9d94e02a-1671-4d9e-af54-06ec907eadfc",
+              "port": "114c73e7-04c7-43b8-a851-82dc21fb2ef5"
+            }
+          },
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "stroke": "#A2B1C3",
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "e4effdea-e8ae-4745-a0a9-21dc643dadd6",
+            "zIndex": 0,
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "管理"
+                  }
+                }
+              }
+            ],
+            "source": {
+              "cell": "d50f0beb-70f2-4d2b-88e2-c105890f9279",
+              "port": "3835dc1f-d390-4aeb-b434-988745dd90b4"
+            },
+            "target": {
+              "cell": "0f4be6f4-46e3-4d67-8ea9-07773a021e98",
+              "port": "114c73e7-04c7-43b8-a851-82dc21fb2ef5"
+            }
+          },
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "stroke": "#A2B1C3",
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "4e59491f-c70d-4723-a885-66e001d847b4",
+            "zIndex": 0,
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "位于"
+                  }
+                }
+              }
+            ],
+            "source": {
+              "cell": "d50f0beb-70f2-4d2b-88e2-c105890f9279",
+              "port": "af0cf505-ee9f-4889-b9df-5cc77a641402"
+            },
+            "target": {
+              "cell": "0ec30d05-3934-42fb-aca2-cfb81ebcec6b",
+              "port": "21b7e0ae-f329-4c1f-a499-2de96a52c47d"
+            }
+          },
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "stroke": "#A2B1C3",
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "4997c5ce-a548-41f0-908e-c9782cd6691f",
+            "zIndex": 0,
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "管理"
+                  }
+                }
+              }
+            ],
+            "source": {
+              "cell": "9d94e02a-1671-4d9e-af54-06ec907eadfc",
+              "port": "58151fbe-afc7-4f58-81bd-7827597f5354"
+            },
+            "target": {
+              "cell": "9847ff55-e7fe-4deb-9ba1-b573aa055dd5",
+              "port": "114c73e7-04c7-43b8-a851-82dc21fb2ef5"
+            }
+          },
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "stroke": "#A2B1C3",
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "92246b4b-5a6d-4d39-9443-0758a12479e7",
+            "zIndex": 0,
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "管理"
+                  }
+                }
+              }
+            ],
+            "source": {
+              "cell": "9847ff55-e7fe-4deb-9ba1-b573aa055dd5",
+              "port": "58151fbe-afc7-4f58-81bd-7827597f5354"
+            },
+            "target": {
+              "cell": "1bb6d010-e4f7-4ba3-aac9-3a48706f8010",
+              "port": "ed786133-cfcd-4a09-9971-320903b4302d"
+            }
+          },
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "stroke": "#A2B1C3",
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "4ffcd0d0-a1a7-4a10-9354-2e011fe8ac4c",
+            "zIndex": 0,
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "参与"
+                  }
+                }
+              }
+            ],
+            "source": {
+              "cell": "d50f0beb-70f2-4d2b-88e2-c105890f9279",
+              "port": "3a80030e-4da0-45c7-bbe9-7d715003c611"
+            },
+            "target": {
+              "cell": "7e6e5b4b-52a0-4319-8d5b-7d7ca33fa6d6",
+              "port": "58b467aa-86f3-4195-b4eb-22424270847f"
+            }
+          },
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "stroke": "#A2B1C3",
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "3740bb59-b90d-4c16-8308-d4d1044b2d19",
+            "zIndex": 0,
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "参与"
+                  }
+                }
+              }
+            ],
+            "source": {
+              "cell": "9d94e02a-1671-4d9e-af54-06ec907eadfc",
+              "port": "a9503ad5-a243-4c41-aa5d-6edea5f70597"
+            },
+            "target": {
+              "cell": "7e6e5b4b-52a0-4319-8d5b-7d7ca33fa6d6",
+              "port": "58b467aa-86f3-4195-b4eb-22424270847f"
+            }
+          },
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "stroke": "#A2B1C3",
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "9b89e398-88a4-4679-8390-483866f8802a",
+            "zIndex": 0,
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "参与"
+                  }
+                }
+              }
+            ],
+            "source": {
+              "cell": "9847ff55-e7fe-4deb-9ba1-b573aa055dd5",
+              "port": "a9503ad5-a243-4c41-aa5d-6edea5f70597"
+            },
+            "target": {
+              "cell": "7e6e5b4b-52a0-4319-8d5b-7d7ca33fa6d6",
+              "port": "0c7fa26b-b83d-4f1b-9e06-d33c8334be85"
+            }
+          },
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "stroke": "#A2B1C3",
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "1723b893-351e-4ebd-bbd1-6268e685c917",
+            "zIndex": 0,
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "参与"
+                  }
+                }
+              }
+            ],
+            "source": {
+              "cell": "1bb6d010-e4f7-4ba3-aac9-3a48706f8010",
+              "port": "e97c8ca4-d528-4414-bc91-91582f490f97"
+            },
+            "target": {
+              "cell": "7e6e5b4b-52a0-4319-8d5b-7d7ca33fa6d6",
+              "port": "0c7fa26b-b83d-4f1b-9e06-d33c8334be85"
+            }
+          },
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "stroke": "#A2B1C3",
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "af053556-e499-4a36-a2fa-9ef85bc1710e",
+            "zIndex": 0,
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "检查"
+                  }
+                }
+              }
+            ],
+            "source": {
+              "cell": "1bb6d010-e4f7-4ba3-aac9-3a48706f8010",
+              "port": "4deba4b0-05f7-420d-8455-a5c71cde6e33"
+            },
+            "target": {
+              "cell": "e01cf401-a833-448c-84e3-8972cc7e0571",
+              "port": "6c05c0cc-d9f0-4d93-bc30-6053df4199c0"
+            }
+          },
+          {
+            "position": {
+              "x": 390,
+              "y": 180
+            },
+            "size": {
+              "width": 80,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "解放路街道办"
+              },
+              "image": {
+                "xlink:href": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgY2xhc3M9InNpemUtNiI+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTE4IDE4LjcyYTkuMDk0IDkuMDk0IDAgMCAwIDMuNzQxLS40NzkgMyAzIDAgMCAwLTQuNjgyLTIuNzJtLjk0IDMuMTk4LjAwMS4wMzFjMCAuMjI1LS4wMTIuNDQ3LS4wMzcuNjY2QTExLjk0NCAxMS45NDQgMCAwIDEgMTIgMjFjLTIuMTcgMC00LjIwNy0uNTc2LTUuOTYzLTEuNTg0QTYuMDYyIDYuMDYyIDAgMCAxIDYgMTguNzE5bTEyIDBhNS45NzEgNS45NzEgMCAwIDAtLjk0MS0zLjE5N20wIDBBNS45OTUgNS45OTUgMCAwIDAgMTIgMTIuNzVhNS45OTUgNS45OTUgMCAwIDAtNS4wNTggMi43NzJtMCAwYTMgMyAwIDAgMC00LjY4MSAyLjcyIDguOTg2IDguOTg2IDAgMCAwIDMuNzQuNDc3bS45NC0zLjE5N2E1Ljk3MSA1Ljk3MSAwIDAgMC0uOTQgMy4xOTdNMTUgNi43NWEzIDMgMCAxIDEtNiAwIDMgMyAwIDAgMSA2IDBabTYgM2EyLjI1IDIuMjUgMCAxIDEtNC41IDAgMi4yNSAyLjI1IDAgMCAxIDQuNSAwWm0tMTMuNSAwYTIuMjUgMi4yNSAwIDEgMS00LjUgMCAyLjI1IDIuMjUgMCAwIDEgNC41IDBaIiAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAg"
+              }
+            },
+            "visible": true,
+            "shape": "custom-image",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "af0cf505-ee9f-4889-b9df-5cc77a641402"
+                },
+                {
+                  "group": "right",
+                  "id": "fd2628d4-c35e-4380-9145-6925b4a768f9"
+                },
+                {
+                  "group": "bottom",
+                  "id": "3835dc1f-d390-4aeb-b434-988745dd90b4"
+                },
+                {
+                  "group": "left",
+                  "id": "3a80030e-4da0-45c7-bbe9-7d715003c611"
+                }
+              ]
+            },
+            "id": "d50f0beb-70f2-4d2b-88e2-c105890f9279",
+            "zIndex": 1,
+            "data": {
+              "地址": "东城区解放路100号",
+              "工作人员数量": "50"
+            }
+          },
+          {
+            "position": {
+              "x": 270,
+              "y": 272
+            },
+            "size": {
+              "width": 110,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "十亩园社区居委会"
+              },
+              "image": {
+                "xlink:href": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgY2xhc3M9InNpemUtNiI+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTE4IDE4LjcyYTkuMDk0IDkuMDk0IDAgMCAwIDMuNzQxLS40NzkgMyAzIDAgMCAwLTQuNjgyLTIuNzJtLjk0IDMuMTk4LjAwMS4wMzFjMCAuMjI1LS4wMTIuNDQ3LS4wMzcuNjY2QTExLjk0NCAxMS45NDQgMCAwIDEgMTIgMjFjLTIuMTcgMC00LjIwNy0uNTc2LTUuOTYzLTEuNTg0QTYuMDYyIDYuMDYyIDAgMCAxIDYgMTguNzE5bTEyIDBhNS45NzEgNS45NzEgMCAwIDAtLjk0MS0zLjE5N20wIDBBNS45OTUgNS45OTUgMCAwIDAgMTIgMTIuNzVhNS45OTUgNS45OTUgMCAwIDAtNS4wNTggMi43NzJtMCAwYTMgMyAwIDAgMC00LjY4MSAyLjcyIDguOTg2IDguOTg2IDAgMCAwIDMuNzQuNDc3bS45NC0zLjE5N2E1Ljk3MSA1Ljk3MSAwIDAgMC0uOTQgMy4xOTdNMTUgNi43NWEzIDMgMCAxIDEtNiAwIDMgMyAwIDAgMSA2IDBabTYgM2EyLjI1IDIuMjUgMCAxIDEtNC41IDAgMi4yNSAyLjI1IDAgMCAxIDQuNSAwWm0tMTMuNSAwYTIuMjUgMi4yNSAwIDEgMS00LjUgMCAyLjI1IDIuMjUgMCAwIDEgNC41IDBaIiAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAg"
+              }
+            },
+            "visible": true,
+            "shape": "custom-image",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "114c73e7-04c7-43b8-a851-82dc21fb2ef5"
+                },
+                {
+                  "group": "right",
+                  "id": "235f494e-b0fd-4c79-aecb-aff51c870959"
+                },
+                {
+                  "group": "bottom",
+                  "id": "58151fbe-afc7-4f58-81bd-7827597f5354"
+                },
+                {
+                  "group": "left",
+                  "id": "a9503ad5-a243-4c41-aa5d-6edea5f70597"
+                }
+              ]
+            },
+            "id": "9d94e02a-1671-4d9e-af54-06ec907eadfc",
+            "zIndex": 2,
+            "data": {
+              "管辖人口": "5000",
+              "联系电话": "0987654321"
+            }
+          },
+          {
+            "position": {
+              "x": 490,
+              "y": 272
+            },
+            "size": {
+              "width": 110,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "青龙街社区居委会"
+              },
+              "image": {
+                "xlink:href": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgY2xhc3M9InNpemUtNiI+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTE4IDE4LjcyYTkuMDk0IDkuMDk0IDAgMCAwIDMuNzQxLS40NzkgMyAzIDAgMCAwLTQuNjgyLTIuNzJtLjk0IDMuMTk4LjAwMS4wMzFjMCAuMjI1LS4wMTIuNDQ3LS4wMzcuNjY2QTExLjk0NCAxMS45NDQgMCAwIDEgMTIgMjFjLTIuMTcgMC00LjIwNy0uNTc2LTUuOTYzLTEuNTg0QTYuMDYyIDYuMDYyIDAgMCAxIDYgMTguNzE5bTEyIDBhNS45NzEgNS45NzEgMCAwIDAtLjk0MS0zLjE5N20wIDBBNS45OTUgNS45OTUgMCAwIDAgMTIgMTIuNzVhNS45OTUgNS45OTUgMCAwIDAtNS4wNTggMi43NzJtMCAwYTMgMyAwIDAgMC00LjY4MSAyLjcyIDguOTg2IDguOTg2IDAgMCAwIDMuNzQuNDc3bS45NC0zLjE5N2E1Ljk3MSA1Ljk3MSAwIDAgMC0uOTQgMy4xOTdNMTUgNi43NWEzIDMgMCAxIDEtNiAwIDMgMyAwIDAgMSA2IDBabTYgM2EyLjI1IDIuMjUgMCAxIDEtNC41IDAgMi4yNSAyLjI1IDAgMCAxIDQuNSAwWm0tMTMuNSAwYTIuMjUgMi4yNSAwIDEgMS00LjUgMCAyLjI1IDIuMjUgMCAwIDEgNC41IDBaIiAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAg"
+              }
+            },
+            "visible": true,
+            "shape": "custom-image",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "114c73e7-04c7-43b8-a851-82dc21fb2ef5"
+                },
+                {
+                  "group": "right",
+                  "id": "235f494e-b0fd-4c79-aecb-aff51c870959"
+                },
+                {
+                  "group": "bottom",
+                  "id": "58151fbe-afc7-4f58-81bd-7827597f5354"
+                },
+                {
+                  "group": "left",
+                  "id": "a9503ad5-a243-4c41-aa5d-6edea5f70597"
+                }
+              ]
+            },
+            "id": "0f4be6f4-46e3-4d67-8ea9-07773a021e98",
+            "zIndex": 3,
+            "data": {
+              "管辖人口": "5000",
+              "联系电话": "0987654321"
+            }
+          },
+          {
+            "position": {
+              "x": 190,
+              "y": 110
+            },
+            "size": {
+              "width": 52,
+              "height": 52
+            },
+            "attrs": {
+              "text": {
+                "text": "解放路"
+              },
+              "image": {
+                "xlink:href": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgY2xhc3M9InNpemUtNiI+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTE1IDEwLjVhMyAzIDAgMSAxLTYgMCAzIDMgMCAwIDEgNiAwWiIgLz4KICAgICAgICAgICAgPHBhdGggc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBkPSJNMTkuNSAxMC41YzAgNy4xNDItNy41IDExLjI1LTcuNSAxMS4yNVM0LjUgMTcuNjQyIDQuNSAxMC41YTcuNSA3LjUgMCAxIDEgMTUgMFoiIC8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICA="
+              }
+            },
+            "visible": true,
+            "shape": "custom-image",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "5590b8c6-a8d0-4acc-9f79-1a39530cdba6"
+                },
+                {
+                  "group": "right",
+                  "id": "21b7e0ae-f329-4c1f-a499-2de96a52c47d"
+                },
+                {
+                  "group": "bottom",
+                  "id": "cd91c920-13c7-48d8-aa65-9e6386a51976"
+                },
+                {
+                  "group": "left",
+                  "id": "0b3b7654-fe55-44dc-92f6-99b26012f2dd"
+                }
+              ]
+            },
+            "id": "0ec30d05-3934-42fb-aca2-cfb81ebcec6b",
+            "zIndex": 4,
+            "data": {
+              "面积": "10平方公里",
+              "人口数量": "20000",
+              "基础设施": "学校、医院、商场、公园"
+            }
+          },
+          {
+            "position": {
+              "x": 270,
+              "y": 382
+            },
+            "size": {
+              "width": 110,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "网格1"
+              },
+              "image": {
+                "xlink:href": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgY2xhc3M9InNpemUtNiI+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTE4IDE4LjcyYTkuMDk0IDkuMDk0IDAgMCAwIDMuNzQxLS40NzkgMyAzIDAgMCAwLTQuNjgyLTIuNzJtLjk0IDMuMTk4LjAwMS4wMzFjMCAuMjI1LS4wMTIuNDQ3LS4wMzcuNjY2QTExLjk0NCAxMS45NDQgMCAwIDEgMTIgMjFjLTIuMTcgMC00LjIwNy0uNTc2LTUuOTYzLTEuNTg0QTYuMDYyIDYuMDYyIDAgMCAxIDYgMTguNzE5bTEyIDBhNS45NzEgNS45NzEgMCAwIDAtLjk0MS0zLjE5N20wIDBBNS45OTUgNS45OTUgMCAwIDAgMTIgMTIuNzVhNS45OTUgNS45OTUgMCAwIDAtNS4wNTggMi43NzJtMCAwYTMgMyAwIDAgMC00LjY4MSAyLjcyIDguOTg2IDguOTg2IDAgMCAwIDMuNzQuNDc3bS45NC0zLjE5N2E1Ljk3MSA1Ljk3MSAwIDAgMC0uOTQgMy4xOTdNMTUgNi43NWEzIDMgMCAxIDEtNiAwIDMgMyAwIDAgMSA2IDBabTYgM2EyLjI1IDIuMjUgMCAxIDEtNC41IDAgMi4yNSAyLjI1IDAgMCAxIDQuNSAwWm0tMTMuNSAwYTIuMjUgMi4yNSAwIDEgMS00LjUgMCAyLjI1IDIuMjUgMCAwIDEgNC41IDBaIiAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAg"
+              }
+            },
+            "visible": true,
+            "shape": "custom-image",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "114c73e7-04c7-43b8-a851-82dc21fb2ef5"
+                },
+                {
+                  "group": "right",
+                  "id": "235f494e-b0fd-4c79-aecb-aff51c870959"
+                },
+                {
+                  "group": "bottom",
+                  "id": "58151fbe-afc7-4f58-81bd-7827597f5354"
+                },
+                {
+                  "group": "left",
+                  "id": "a9503ad5-a243-4c41-aa5d-6edea5f70597"
+                }
+              ]
+            },
+            "id": "9847ff55-e7fe-4deb-9ba1-b573aa055dd5",
+            "zIndex": 5,
+            "data": {
+              "覆盖面积": "500平方米 ",
+              "人口数量": "300"
+            }
+          },
+          {
+            "position": {
+              "x": 285,
+              "y": 490
+            },
+            "size": {
+              "width": 80,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "网格员-李华"
+              },
+              "image": {
+                "xlink:href": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgY2xhc3M9InNpemUtNiI+CiAgICAgICAgICAgICAgICA8cGF0aCBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGQ9Ik0xNS43NSA2YTMuNzUgMy43NSAwIDEgMS03LjUgMCAzLjc1IDMuNzUgMCAwIDEgNy41IDBaTTQuNTAxIDIwLjExOGE3LjUgNy41IDAgMCAxIDE0Ljk5OCAwQTE3LjkzMyAxNy45MzMgMCAwIDEgMTIgMjEuNzVjLTIuNjc2IDAtNS4yMTYtLjU4NC03LjQ5OS0xLjYzMloiIC8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICA="
+              }
+            },
+            "visible": true,
+            "shape": "custom-image",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "ed786133-cfcd-4a09-9971-320903b4302d"
+                },
+                {
+                  "group": "right",
+                  "id": "4deba4b0-05f7-420d-8455-a5c71cde6e33"
+                },
+                {
+                  "group": "bottom",
+                  "id": "9858090d-0396-4e6f-924e-f53bbc181066"
+                },
+                {
+                  "group": "left",
+                  "id": "e97c8ca4-d528-4414-bc91-91582f490f97"
+                }
+              ]
+            },
+            "id": "1bb6d010-e4f7-4ba3-aac9-3a48706f8010",
+            "zIndex": 6,
+            "data": {
+              "名称": "李华",
+              "员工编号": "WX12345",
+              "联系电话": "13579246810"
+            }
+          },
+          {
+            "position": {
+              "x": 110,
+              "y": 322
+            },
+            "size": {
+              "width": 80,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "社区走访"
+              },
+              "image": {
+                "xlink:href": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgY2xhc3M9InNpemUtNiI+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTTYgNi44NzhWNmEyLjI1IDIuMjUgMCAwIDEgMi4yNS0yLjI1aDcuNUEyLjI1IDIuMjUgMCAwIDEgMTggNnYuODc4bS0xMiAwYy4yMzUtLjA4My40ODctLjEyOC43NS0uMTI4aDEwLjVjLjI2MyAwIC41MTUuMDQ1Ljc1LjEyOG0tMTIgMEEyLjI1IDIuMjUgMCAwIDAgNC41IDl2Ljg3OG0xMy41LTNBMi4yNSAyLjI1IDAgMCAxIDE5LjUgOXYuODc4bTAgMGEyLjI0NiAyLjI0NiAwIDAgMC0uNzUtLjEyOEg1LjI1Yy0uMjYzIDAtLjUxNS4wNDUtLjc1LjEyOG0xNSAwQTIuMjUgMi4yNSAwIDAgMSAyMSAxMnY2YTIuMjUgMi4yNSAwIDAgMS0yLjI1IDIuMjVINS4yNUEyLjI1IDIuMjUgMCAwIDEgMyAxOHYtNmMwLS45OC42MjYtMS44MTMgMS41LTIuMTIyIiAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAg"
+              }
+            },
+            "visible": true,
+            "shape": "custom-image",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "58b467aa-86f3-4195-b4eb-22424270847f"
+                },
+                {
+                  "group": "right",
+                  "id": "a196458d-0828-493d-88fb-69b26b36461a"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0c7fa26b-b83d-4f1b-9e06-d33c8334be85"
+                },
+                {
+                  "group": "left",
+                  "id": "ea277c0f-dd54-4d75-88e5-f783bc1c554d"
+                }
+              ]
+            },
+            "id": "7e6e5b4b-52a0-4319-8d5b-7d7ca33fa6d6",
+            "zIndex": 7,
+            "data": {
+              "描述": "定期入户了解居民情况",
+              "状态": "进行中"
+            }
+          },
+          {
+            "position": {
+              "x": 502,
+              "y": 489
+            },
+            "size": {
+              "width": 52,
+              "height": 52
+            },
+            "attrs": {
+              "text": {
+                "text": "垃圾桶"
+              },
+              "image": {
+                "xlink:href": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgY2xhc3M9InNpemUtNiI+CiAgICAgICAgICAgIDxwYXRoIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0ibTIxIDcuNS05LTUuMjVMMyA3LjVtMTggMC05IDUuMjVtOS01LjI1djlsLTkgNS4yNU0zIDcuNWw5IDUuMjVNMyA3LjV2OWw5IDUuMjVtMC05djkiIC8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICA="
+              }
+            },
+            "visible": true,
+            "shape": "custom-image",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1df30bdc-054c-42c1-a1e2-ffa0aa344387"
+                },
+                {
+                  "group": "right",
+                  "id": "d7c9e8fc-7a85-44d9-9e89-27bc0ab8a94e"
+                },
+                {
+                  "group": "bottom",
+                  "id": "9f75c3d6-250e-4afb-bfa9-9f6ffceaefb6"
+                },
+                {
+                  "group": "left",
+                  "id": "6c05c0cc-d9f0-4d93-bc30-6053df4199c0"
+                }
+              ]
+            },
+            "id": "e01cf401-a833-448c-84e3-8972cc7e0571",
+            "zIndex": 8,
+            "data": {
+              "编号": "LT001",
+              "容量": "50升",
+              "维护状态": "正常"
+            }
+          }
+        ]
       },
       "simulation": {
         "points": [],
@@ -87,6 +1203,22 @@
         "areas": [],
         "paths": []
       }
+    },
+    {
+      "id": "1a8c0ee0-c05e-11ef-86f8-41e7c1b4c1f6",
+      "name": "智慧社区"
+    },
+    {
+      "id": "1e6885c0-c05e-11ef-86f8-41e7c1b4c1f6",
+      "name": "矛盾纠纷调解"
+    },
+    {
+      "id": "221f4c30-c05e-11ef-86f8-41e7c1b4c1f6",
+      "name": "重点人员监管"
+    },
+    {
+      "id": "26718f50-c05e-11ef-86f8-41e7c1b4c1f6",
+      "name": "舆情调控"
     }
   ]
 }
