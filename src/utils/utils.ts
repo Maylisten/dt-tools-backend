@@ -38,3 +38,34 @@ export function randomWait(minTime: number, maxTime: number): Promise<void> {
   });
 }
 
+/**
+ * 递归地将对象中的所有日期字符串转换为 Date 对象
+ * @param obj - 输入对象
+ * @returns 转换后的对象
+ */
+export function parseDatesInObject<T>(obj: T): T {
+  if (obj === null || typeof obj !== 'object') {
+    return obj; // 如果不是对象或数组，直接返回
+  }
+
+  if (Array.isArray(obj)) {
+    return obj.map(item => parseDatesInObject(item)) as T; // 如果是数组，递归处理每个元素
+  }
+
+  const parsedObj: Record<string, any> = {};
+
+  for (const [key, value] of Object.entries(obj)) {
+    if (typeof value === 'string' && !isNaN(Date.parse(value))) {
+      // 如果是日期字符串，转换为 Date 对象
+      parsedObj[key] = new Date(value);
+    } else if (typeof value === 'object') {
+      // 如果是对象，递归处理
+      parsedObj[key] = parseDatesInObject(value);
+    } else {
+      // 其他类型直接赋值
+      parsedObj[key] = value;
+    }
+  }
+
+  return parsedObj as T;
+}

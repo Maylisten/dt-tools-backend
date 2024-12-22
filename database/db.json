@@ -5,167 +5,88 @@
       "name": "社会治安治理",
       "processes": [
         {
-          "id": "69607e81-bdb0-11ef-8c56-b964988ecdae",
-          "fileId": "69607e80-bdb0-11ef-8c56-b964988ecdae",
+          "id": "2f733ab1-bfa3-11ef-b8d5-adb73bfb2f93",
+          "fileId": "2f733ab0-bfa3-11ef-b8d5-adb73bfb2f93",
           "steps": [
             "DataCleaning",
             "DataCompression"
           ],
-          "filename": "工作日报.docx",
+          "filename": "示例文档.docx",
           "status": 2
         },
         {
-          "id": "41b1c723-bda8-11ef-8c56-b964988ecdae",
-          "fileId": "41b1c721-bda8-11ef-8c56-b964988ecdae",
+          "id": "d1175870-bfa2-11ef-b8d5-adb73bfb2f93",
+          "fileId": "d1173160-bfa2-11ef-b8d5-adb73bfb2f93",
           "steps": [
             "DataCleaning",
-            "DataTransformation",
-            "DataEncryption"
-          ],
-          "filename": "实习工作内容总结回顾.docx",
-          "status": 3
-        },
-        {
-          "id": "41b1c722-bda8-11ef-8c56-b964988ecdae",
-          "fileId": "41b1c720-bda8-11ef-8c56-b964988ecdae",
-          "steps": [
-            "DataCleaning",
-            "DataTransformation",
-            "DataEncryption"
-          ],
-          "filename": "实习个人自评.docx",
-          "status": 3
-        },
-        {
-          "id": "876e3360-bd59-11ef-b5aa-595dbc6940cf",
-          "fileId": "876e0c51-bd59-11ef-b5aa-595dbc6940cf",
-          "steps": [
-            "DataCleaning",
-            "DataTransformation",
             "DataCompression"
+          ],
+          "filename": "示例文档.docx",
+          "status": 2
+        },
+        {
+          "id": "bb92ec30-bfa2-11ef-b8d5-adb73bfb2f93",
+          "fileId": "bb92c520-bfa2-11ef-b8d5-adb73bfb2f93",
+          "steps": [
+            "DataCleaning",
+            "DataEncryption"
+          ],
+          "filename": "示例文档.docx",
+          "status": 2
+        },
+        {
+          "id": "7978dab0-be96-11ef-b81a-4f75fc94629b",
+          "fileId": "7978b3a0-be96-11ef-b81a-4f75fc94629b",
+          "steps": [
+            "DataCleaning"
+          ],
+          "filename": "燃油车.glb",
+          "status": 1
+        },
+        {
+          "id": "39ca4b51-bdd4-11ef-ae21-67a90376b226",
+          "fileId": "39ca4b50-bdd4-11ef-ae21-67a90376b226",
+          "steps": [
+            "DataCleaning"
           ],
           "filename": "讲稿.docx",
-          "status": 3
+          "status": 1
         },
         {
-          "id": "876e0c52-bd59-11ef-b5aa-595dbc6940cf",
-          "fileId": "876e0c50-bd59-11ef-b5aa-595dbc6940cf",
-          "steps": [
-            "DataCleaning",
-            "DataTransformation",
-            "DataCompression"
-          ],
+          "id": "33ca5831-bdd4-11ef-ae21-67a90376b226",
+          "fileId": "33ca5830-bdd4-11ef-ae21-67a90376b226",
+          "steps": [],
           "filename": "工作日报.docx",
-          "status": 3
-        },
-        {
-          "id": "2ee7fff2-bd59-11ef-b5aa-595dbc6940cf",
-          "fileId": "2ee7fff0-bd59-11ef-b5aa-595dbc6940cf",
-          "steps": [
-            "DataCleaning",
-            "DataCompression",
-            "DataEncryption"
-          ],
-          "filename": "身份证复印件_徐瀚.pdf",
-          "status": 3
-        },
-        {
-          "id": "2ee7fff1-bd59-11ef-b5aa-595dbc6940cf",
-          "fileId": "2ee7d8e0-bd59-11ef-b5aa-595dbc6940cf",
-          "steps": [
-            "DataCleaning",
-            "DataCompression",
-            "DataEncryption"
-          ],
-          "filename": "人才实训协议_徐瀚.pdf",
-          "status": 3
-        },
-        {
-          "id": "09053552-bd59-11ef-b5aa-595dbc6940cf",
-          "fileId": "09053550-bd59-11ef-b5aa-595dbc6940cf",
-          "steps": [
-            "DataCleaning",
-            "DataCompression",
-            "DataEncryption"
-          ],
-          "filename": "身份证复印件_徐瀚.pdf",
-          "status": 3
-        },
-        {
-          "id": "09053551-bd59-11ef-b5aa-595dbc6940cf",
-          "fileId": "09050e40-bd59-11ef-b5aa-595dbc6940cf",
-          "steps": [
-            "DataCleaning",
-            "DataCompression",
-            "DataEncryption"
-          ],
-          "filename": "人才实训协议_徐瀚.pdf",
-          "status": 3
-        },
-        {
-          "id": "925b34f1-bd57-11ef-b5aa-595dbc6940cf",
-          "fileId": "925b34f0-bd57-11ef-b5aa-595dbc6940cf",
-          "steps": [
-            "DataCleaning",
-            "DataTransformation",
-            "DataEncryption"
-          ],
-          "filename": "教育部学历证书电子注册备案表_徐瀚.pdf",
-          "status": 3
+          "status": 0
         }
       ],
       "files": [
         {
-          "id": "925b34f0-bd57-11ef-b5aa-595dbc6940cf",
-          "path": "/1734536944071-教育部学历证书电子注册备案表_徐瀚.pdf",
-          "name": "教育部学历证书电子注册备案表_徐瀚.pdf"
-        },
-        {
-          "id": "09050e40-bd59-11ef-b5aa-595dbc6940cf",
-          "path": "/1734537570836-人才实训协议_徐瀚.pdf",
-          "name": "人才实训协议_徐瀚.pdf"
-        },
-        {
-          "id": "09053550-bd59-11ef-b5aa-595dbc6940cf",
-          "path": "/1734537571694-身份证复印件_徐瀚.pdf",
-          "name": "身份证复印件_徐瀚.pdf"
-        },
-        {
-          "id": "2ee7d8e0-bd59-11ef-b5aa-595dbc6940cf",
-          "path": "/1734537634867-人才实训协议_徐瀚.pdf",
-          "name": "人才实训协议_徐瀚.pdf"
-        },
-        {
-          "id": "2ee7fff0-bd59-11ef-b5aa-595dbc6940cf",
-          "path": "/1734537637287-身份证复印件_徐瀚.pdf",
-          "name": "身份证复印件_徐瀚.pdf"
-        },
-        {
-          "id": "876e0c50-bd59-11ef-b5aa-595dbc6940cf",
-          "path": "/1734537780854-工作日报.docx",
+          "id": "33ca5830-bdd4-11ef-ae21-67a90376b226",
+          "path": "/1734590457240-工作日报.docx",
           "name": "工作日报.docx"
         },
         {
-          "id": "876e0c51-bd59-11ef-b5aa-595dbc6940cf",
-          "path": "/1734537781283-讲稿.docx",
+          "id": "39ca4b50-bdd4-11ef-ae21-67a90376b226",
+          "path": "/1734590472024-讲稿.docx",
           "name": "讲稿.docx"
         },
         {
-          "id": "41b1c721-bda8-11ef-8c56-b964988ecdae",
-          "path": "/1734571594286-实习工作内容总结回顾.docx",
-          "name": "实习工作内容总结回顾.docx"
-        },
-        {
-          "id": "41b1c720-bda8-11ef-8c56-b964988ecdae",
-          "path": "/1734571597330-实习个人自评.docx",
-          "name": "实习个人自评.docx"
-        },
-        {
-          "id": "69607e80-bdb0-11ef-8c56-b964988ecdae",
-          "path": "/1734575095880-工作日报.docx",
-          "name": "工作日报.docx"
+          "id": "7978b3a0-be96-11ef-b81a-4f75fc94629b",
+          "path": "/1734673900993-燃油车.glb",
+          "name": "燃油车.glb"
         }
-      ]
+      ],
+      "models": [],
+      "diagrams": {
+        "cells": []
+      },
+      "simulation": {
+        "points": [],
+        "lines": [],
+        "areas": [],
+        "paths": []
+      }
     }
   ]
 }
