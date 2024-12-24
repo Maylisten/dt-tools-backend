@@ -1,7 +1,7 @@
 import {Process} from "./Process";
 import {StoreFile} from "./StoreFile";
 import {Model} from "./Model";
-import {Area, Line, Path, Point} from "./SimulationEntities";
+import {Simulations} from "./SimulationEntities";
 
 export interface Project {
   id: string
@@ -10,10 +10,5 @@ export interface Project {
   processes?: Process[],
   diagrams?: unknown,
   models?: Model[],
-  simulation?: {
-    points?: Point[],
-    lines?: Line[],
-    areas?: Area[],
-    paths?: Path[],
-  }
+  simulation?: Simulations
 }

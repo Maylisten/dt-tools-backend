@@ -2,6 +2,8 @@ import express from "express";
 import {errorMessage, successMessage} from "../utils/utils";
 import {Area, Line, Path, Point} from "../types/SimulationEntities";
 import {
+  addLog,
+  getLogs,
   listAreas,
   listLines,
   listPaths,
@@ -98,4 +100,26 @@ router.post('/path/set', async function (req, res) {
   }
 })
 
+// 记录渲染时间日志
+router.get('/log/add', async function (req, res) {
+  try {
+    const projectId = req.query.projectId as string;
+    const begin = parseInt(req.query.begin as string);
+    const end = parseInt(req.query.end as string);
+    res.send(successMessage(await addLog(projectId, begin, end)))
+  } catch (err) {
+    console.error(err)
+    res.send(errorMessage(err as string))
+  }
+})
+
+router.get('/logs', async function (req, res) {
+  try {
+    const projectId = req.query.projectId as string;
+    res.send(successMessage(await getLogs(projectId)))
+  } catch (err) {
+    console.error(err)
+    res.send(errorMessage(err as string))
+  }
+})
 export default router;

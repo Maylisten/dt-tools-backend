@@ -347,6 +347,93 @@
             }
           },
           {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "stroke": "#A2B1C3",
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "a4010aed-d54d-4cca-8eee-c04c604948f1",
+            "zIndex": 0,
+            "source": {
+              "cell": "bd5d605c-4d94-439d-a7db-bbd0e0bc2546",
+              "port": "44cbe32e-f8ca-4187-a364-5ee2d73463ff"
+            },
+            "target": {
+              "cell": "bd5d605c-4d94-439d-a7db-bbd0e0bc2546",
+              "port": "44cbe32e-f8ca-4187-a364-5ee2d73463ff"
+            }
+          },
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "stroke": "#A2B1C3",
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "75c217a5-9ef7-46f6-b20e-db423d6b13cc",
+            "zIndex": 0,
+            "source": {
+              "cell": "bd5d605c-4d94-439d-a7db-bbd0e0bc2546",
+              "port": "e9fbbe36-aa38-43b5-8c93-b053a53974fe"
+            },
+            "target": {
+              "cell": "0f4be6f4-46e3-4d67-8ea9-07773a021e98",
+              "port": "58151fbe-afc7-4f58-81bd-7827597f5354"
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "属于"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "shape": "edge",
+            "attrs": {
+              "line": {
+                "stroke": "#A2B1C3",
+                "targetMarker": {
+                  "name": "block",
+                  "width": 12,
+                  "height": 8
+                }
+              }
+            },
+            "id": "68e8e602-0e38-44d8-a215-5ce278f9c4cc",
+            "zIndex": 0,
+            "source": {
+              "cell": "bd5d605c-4d94-439d-a7db-bbd0e0bc2546",
+              "port": "4777498d-e209-408a-a1e9-bf0e32304415"
+            },
+            "target": {
+              "cell": "7e6e5b4b-52a0-4319-8d5b-7d7ca33fa6d6",
+              "port": "0c7fa26b-b83d-4f1b-9e06-d33c8334be85"
+            },
+            "labels": [
+              {
+                "attrs": {
+                  "label": {
+                    "text": "参与"
+                  }
+                }
+              }
+            ]
+          },
+          {
             "position": {
               "x": 390,
               "y": 180
@@ -1212,16 +1299,370 @@
               "容量": "50升",
               "维护状态": "正常"
             }
+          },
+          {
+            "position": {
+              "x": 640,
+              "y": 460
+            },
+            "size": {
+              "width": 52,
+              "height": 52
+            },
+            "attrs": {
+              "text": {
+                "text": "测试网格员"
+              },
+              "image": {
+                "xlink:href": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgY2xhc3M9InNpemUtNiI+CiAgICAgICAgICAgICAgICA8cGF0aCBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGQ9Ik0xNS43NSA2YTMuNzUgMy43NSAwIDEgMS03LjUgMCAzLjc1IDMuNzUgMCAwIDEgNy41IDBaTTQuNTAxIDIwLjExOGE3LjUgNy41IDAgMCAxIDE0Ljk5OCAwQTE3LjkzMyAxNy45MzMgMCAwIDEgMTIgMjEuNzVjLTIuNjc2IDAtNS4yMTYtLjU4NC03LjQ5OS0xLjYzMloiIC8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICA="
+              }
+            },
+            "visible": true,
+            "shape": "custom-image",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e9fbbe36-aa38-43b5-8c93-b053a53974fe"
+                },
+                {
+                  "group": "right",
+                  "id": "44cbe32e-f8ca-4187-a364-5ee2d73463ff"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4777498d-e209-408a-a1e9-bf0e32304415"
+                },
+                {
+                  "group": "left",
+                  "id": "99bd46c7-dd3a-40e1-8661-a46e80d8ee81"
+                }
+              ]
+            },
+            "id": "bd5d605c-4d94-439d-a7db-bbd0e0bc2546",
+            "zIndex": 9,
+            "data": {
+              "姓名": "小明"
+            }
           }
         ]
       },
       "simulation": {
-        "points": [],
-        "lines": [],
+        "points": [
+          {
+            "id": "b978e210-c1a0-11ef-bff6-6b3f652b85c5",
+            "label": "新建点",
+            "position": [
+              2.065840261607983,
+              0.6330264869398704,
+              0
+            ],
+            "availability": [
+              "2024-12-24T02:38:36.272Z",
+              "2024-12-25T02:38:36.272Z"
+            ],
+            "color": "#0000F5"
+          }
+        ],
+        "lines": [
+          {
+            "id": "560cc3e0-c1a0-11ef-bff6-6b3f652b85c5",
+            "label": "新建线",
+            "positions": [
+              [
+                2.059039975997191,
+                0.640709531653731,
+                0
+              ],
+              [
+                2.0637704642986394,
+                0.6378077329901886,
+                9.313225746154785e-10
+              ],
+              [
+                2.069491392057373,
+                0.6405911471620549,
+                0
+              ],
+              [
+                2.0717190562683494,
+                0.6378696266140531,
+                0
+              ]
+            ],
+            "availability": [
+              "2024-12-24T02:38:36.272Z",
+              "2024-12-25T02:38:36.272Z"
+            ],
+            "color": "#0000F5"
+          },
+          {
+            "id": "be141510-c1a0-11ef-bff6-6b3f652b85c5",
+            "label": "新建线",
+            "positions": [
+              [
+                2.0658378123973353,
+                0.6330238096569346,
+                0
+              ],
+              [
+                2.0658448063187724,
+                0.6330216695709733,
+                9.313225746154785e-10
+              ],
+              [
+                2.065848181684177,
+                0.6330245188878517,
+                9.313225746154785e-10
+              ]
+            ],
+            "availability": [
+              "2024-12-24T02:38:36.272Z",
+              "2024-12-25T02:38:36.272Z"
+            ],
+            "color": "#0000F5"
+          }
+        ],
         "areas": [],
-        "paths": []
+        "paths": [
+          {
+            "id": "68f29070-c1a0-11ef-bff6-6b3f652b85c5",
+            "label": "新建路径",
+            "points": [
+              {
+                "time": "2024-12-24T02:38:36.272Z",
+                "position": [
+                  2.0633102290718437,
+                  0.6331875002026495,
+                  0
+                ]
+              },
+              {
+                "time": "2024-12-24T02:38:46.272Z",
+                "position": [
+                  2.0665941102568492,
+                  0.6329634554640957,
+                  0
+                ]
+              },
+              {
+                "time": "2024-12-24T02:38:56.272Z",
+                "position": [
+                  2.0702922953001357,
+                  0.6339855923142262,
+                  0
+                ]
+              },
+              {
+                "time": "2024-12-24T02:39:06.272Z",
+                "position": [
+                  2.073161588268925,
+                  0.6335827366227438,
+                  0
+                ]
+              },
+              {
+                "time": "2024-12-24T02:39:16.272Z",
+                "position": [
+                  2.0733963684981935,
+                  0.6320042501302632,
+                  0
+                ]
+              }
+            ],
+            "availability": [
+              "2024-12-24T02:38:36.272Z",
+              "2024-12-25T02:38:36.272Z"
+            ]
+          }
+        ],
+        "logs": [
+          {
+            "begin": 1735012148617,
+            "end": 1735012149285,
+            "message": "渲染场景加载"
+          },
+          {
+            "begin": 1735012851415,
+            "end": 1735012852357,
+            "message": "渲染场景加载"
+          },
+          {
+            "begin": 1735013013220,
+            "end": 1735013014013,
+            "message": "渲染场景加载"
+          },
+          {
+            "begin": 1735013024586,
+            "end": 1735013025262,
+            "message": "渲染场景加载"
+          },
+          {
+            "begin": 1735020876810,
+            "end": 1735020877661,
+            "message": "渲染场景加载"
+          },
+          {
+            "begin": 1735021029461,
+            "end": 1735021029973,
+            "message": "渲染场景加载"
+          },
+          {
+            "begin": 1735021030294,
+            "end": 1735021031091,
+            "message": "渲染场景加载"
+          },
+          {
+            "begin": 1735021033581,
+            "end": 1735021034211,
+            "message": "渲染场景加载"
+          },
+          {
+            "begin": 1735021048920,
+            "end": 1735021049774,
+            "message": "渲染场景加载"
+          },
+          {
+            "begin": 1735021060791,
+            "end": 1735021061304,
+            "message": "渲染场景加载"
+          },
+          {
+            "begin": 1735021065514,
+            "end": 1735021066120,
+            "message": "渲染场景加载"
+          },
+          {
+            "begin": 1735021137374,
+            "end": 1735021137995,
+            "message": "渲染场景加载"
+          },
+          {
+            "begin": 1735021214288,
+            "end": 1735021215252,
+            "message": "渲染场景加载"
+          }
+        ]
       },
       "processes": [
+        {
+          "id": "fd344401-c19a-11ef-9434-293d229d78f1",
+          "fileId": "fd344400-c19a-11ef-9434-293d229d78f1",
+          "steps": [
+            "DataClean",
+            "DataSample",
+            "DataEncryption"
+          ],
+          "filename": "人际关系.csv",
+          "status": 3
+        },
+        {
+          "id": "e52471f1-c19a-11ef-9434-293d229d78f1",
+          "fileId": "e52471f0-c19a-11ef-9434-293d229d78f1",
+          "steps": [
+            "DataCompression"
+          ],
+          "filename": "人际关系.csv",
+          "status": 1
+        },
+        {
+          "id": "d68835f1-c19a-11ef-9434-293d229d78f1",
+          "fileId": "d68835f0-c19a-11ef-9434-293d229d78f1",
+          "steps": [
+            "DataDecryption"
+          ],
+          "filename": "1735005610161-人际关系.encryption.csv",
+          "status": 1
+        },
+        {
+          "id": "cb7bb061-c19a-11ef-9434-293d229d78f1",
+          "fileId": "cb7bb060-c19a-11ef-9434-293d229d78f1",
+          "steps": [
+            "DataEncryption"
+          ],
+          "filename": "人际关系.csv",
+          "status": 1
+        },
+        {
+          "id": "bf131d41-c19a-11ef-9434-293d229d78f1",
+          "fileId": "bf131d40-c19a-11ef-9434-293d229d78f1",
+          "steps": [
+            "DataSample"
+          ],
+          "filename": "人际关系.csv",
+          "status": 1
+        },
+        {
+          "id": "a18d96b1-c19a-11ef-9434-293d229d78f1",
+          "fileId": "a18d96b0-c19a-11ef-9434-293d229d78f1",
+          "steps": [
+            "DataClean"
+          ],
+          "filename": "人际关系.csv",
+          "status": 1
+        },
         {
           "id": "fa287a50-c13c-11ef-ab79-2dcb73600f34",
           "fileId": "fa27de18-c13c-11ef-ab79-2dcb73600f34",
@@ -1363,6 +1804,31 @@
           "id": "fa27de12-c13c-11ef-ab79-2dcb73600f34",
           "path": "/1734965317439-社区设施分布图.clean.kml",
           "name": "1734965317439-社区设施分布图.clean.kml"
+        },
+        {
+          "id": "a18d96b0-c19a-11ef-9434-293d229d78f1",
+          "path": "/1735005539400-人际关系.clean.csv",
+          "name": "1735005539400-人际关系.clean.csv"
+        },
+        {
+          "id": "bf131d40-c19a-11ef-9434-293d229d78f1",
+          "path": "/1735005589622-人际关系.sample.csv",
+          "name": "1735005589622-人际关系.sample.csv"
+        },
+        {
+          "id": "cb7bb060-c19a-11ef-9434-293d229d78f1",
+          "path": "/1735005610161-人际关系.encryption.csv",
+          "name": "1735005610161-人际关系.encryption.csv"
+        },
+        {
+          "id": "d68835f0-c19a-11ef-9434-293d229d78f1",
+          "path": "/1735005627885-1735005610161-人际关系.encryption.decryption.csv",
+          "name": "1735005627885-1735005610161-人际关系.encryption.decryption.csv"
+        },
+        {
+          "id": "e52471f0-c19a-11ef-9434-293d229d78f1",
+          "path": "/1735005652554-人际关系.compressed.csv.gz",
+          "name": "1735005652554-人际关系.compressed.csv.gz"
         }
       ]
     },

@@ -1,7 +1,9 @@
 import {Area, Line, Path, Point} from "../types/SimulationEntities";
 import {
+  insertLog,
   selectAreas,
   selectLines,
+  selectLogs,
   selectPaths,
   selectPoints,
   updateAllAreas,
@@ -40,4 +42,12 @@ export async function listPaths(projectId: string) {
 
 export async function setPaths(projectId: string, paths: Path[]) {
   return updateAllPaths(projectId, paths);
+}
+
+export async function addLog(projectId: string, begin: number, end: number) {
+  await insertLog(projectId, {begin, end, message: "渲染场景加载"})
+}
+
+export async function getLogs(projectId: string) {
+  return await selectLogs(projectId)
 }
