@@ -22,6 +22,22 @@
             ],
             "size": 1
           }
+        },
+        {
+          "id": "d420c450-c1c5-11ef-ae7b-0d6982213883",
+          "name": "测试",
+          "type": "WATER",
+          "config": {
+            "size": [
+              10,
+              10
+            ],
+            "position": [
+              0,
+              0,
+              0
+            ]
+          }
         }
       ],
       "diagrams": {
