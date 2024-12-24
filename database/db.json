@@ -3,9 +3,27 @@
     {
       "id": "9d6d9770-bd16-11ef-a9a0-a35a8e77ad9b",
       "name": "社会治安治理",
-      "processes": [],
-      "files": [],
-      "models": [],
+      "models": [
+        {
+          "id": "17570fb0-c06b-11ef-860d-b7bcfd3e1780",
+          "name": "消防车",
+          "type": "GLTF",
+          "config": {
+            "url": "/models/12ccf3b0-c06b-11ef-860d-b7bcfd3e1780.gltf",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "size": 1
+          }
+        }
+      ],
       "diagrams": {
         "cells": [
           {
@@ -1202,7 +1220,151 @@
         "lines": [],
         "areas": [],
         "paths": []
-      }
+      },
+      "processes": [
+        {
+          "id": "fa287a50-c13c-11ef-ab79-2dcb73600f34",
+          "fileId": "fa27de18-c13c-11ef-ab79-2dcb73600f34",
+          "steps": [
+            "DataClean"
+          ],
+          "filename": "走访居民口述记录.docx",
+          "status": 1
+        },
+        {
+          "id": "fa285340-c13c-11ef-ab79-2dcb73600f34",
+          "fileId": "fa27de17-c13c-11ef-ab79-2dcb73600f34",
+          "steps": [
+            "DataClean"
+          ],
+          "filename": "治安治理措施评估报告.pdf",
+          "status": 1
+        },
+        {
+          "id": "fa282c31-c13c-11ef-ab79-2dcb73600f34",
+          "fileId": "fa27de16-c13c-11ef-ab79-2dcb73600f34",
+          "steps": [
+            "DataClean"
+          ],
+          "filename": "治安设备维护计划.yml",
+          "status": 1
+        },
+        {
+          "id": "fa282c30-c13c-11ef-ab79-2dcb73600f34",
+          "fileId": "fa27de15-c13c-11ef-ab79-2dcb73600f34",
+          "steps": [
+            "DataClean"
+          ],
+          "filename": "消防栓模型.gltf",
+          "status": 1
+        },
+        {
+          "id": "fa280522-c13c-11ef-ab79-2dcb73600f34",
+          "fileId": "fa27de14-c13c-11ef-ab79-2dcb73600f34",
+          "steps": [
+            "DataClean"
+          ],
+          "filename": "事故记录_20241222.json",
+          "status": 1
+        },
+        {
+          "id": "fa280521-c13c-11ef-ab79-2dcb73600f34",
+          "fileId": "fa27de13-c13c-11ef-ab79-2dcb73600f34",
+          "steps": [
+            "DataClean"
+          ],
+          "filename": "社区网格数据.geojson",
+          "status": 1
+        },
+        {
+          "id": "fa280520-c13c-11ef-ab79-2dcb73600f34",
+          "fileId": "fa27de12-c13c-11ef-ab79-2dcb73600f34",
+          "steps": [
+            "DataClean"
+          ],
+          "filename": "社区设施分布图.kml",
+          "status": 1
+        },
+        {
+          "id": "fa27de1b-c13c-11ef-ab79-2dcb73600f34",
+          "fileId": "fa27de11-c13c-11ef-ab79-2dcb73600f34",
+          "steps": [
+            "DataClean"
+          ],
+          "filename": "社区监控_20241222.mp4",
+          "status": 1
+        },
+        {
+          "id": "fa27de1a-c13c-11ef-ab79-2dcb73600f34",
+          "fileId": "fa27de10-c13c-11ef-ab79-2dcb73600f34",
+          "steps": [
+            "DataClean"
+          ],
+          "filename": "人口数据.csv",
+          "status": 1
+        },
+        {
+          "id": "fa27de19-c13c-11ef-ab79-2dcb73600f34",
+          "fileId": "fa27b700-c13c-11ef-ab79-2dcb73600f34",
+          "steps": [
+            "DataClean"
+          ],
+          "filename": "报警记录日志.log",
+          "status": 1
+        }
+      ],
+      "files": [
+        {
+          "id": "fa27de16-c13c-11ef-ab79-2dcb73600f34",
+          "path": "/1734965314844-治安设备维护计划.clean.yml",
+          "name": "1734965314844-治安设备维护计划.clean.yml"
+        },
+        {
+          "id": "fa27de18-c13c-11ef-ab79-2dcb73600f34",
+          "path": "/1734965314931-走访居民口述记录.clean.docx",
+          "name": "1734965314931-走访居民口述记录.clean.docx"
+        },
+        {
+          "id": "fa27de10-c13c-11ef-ab79-2dcb73600f34",
+          "path": "/1734965315836-人口数据.clean.csv",
+          "name": "1734965315836-人口数据.clean.csv"
+        },
+        {
+          "id": "fa27de11-c13c-11ef-ab79-2dcb73600f34",
+          "path": "/1734965315890-社区监控_20241222.clean.mp4",
+          "name": "1734965315890-社区监控_20241222.clean.mp4"
+        },
+        {
+          "id": "fa27de13-c13c-11ef-ab79-2dcb73600f34",
+          "path": "/1734965316121-社区网格数据.clean.geojson",
+          "name": "1734965316121-社区网格数据.clean.geojson"
+        },
+        {
+          "id": "fa27de15-c13c-11ef-ab79-2dcb73600f34",
+          "path": "/1734965316160-消防栓模型.clean.gltf",
+          "name": "1734965316160-消防栓模型.clean.gltf"
+        },
+        {
+          "id": "fa27de17-c13c-11ef-ab79-2dcb73600f34",
+          "path": "/1734965316449-治安治理措施评估报告.clean.pdf",
+          "name": "1734965316449-治安治理措施评估报告.clean.pdf"
+        },
+        {
+          "id": "fa27b700-c13c-11ef-ab79-2dcb73600f34",
+          "path": "/1734965316951-报警记录日志.clean.log",
+          "name": "1734965316951-报警记录日志.clean.log"
+        },
+        {
+          "id": "fa27de14-c13c-11ef-ab79-2dcb73600f34",
+          "path": "/1734965317365-事故记录_20241222.clean.json",
+          "name": "1734965317365-事故记录_20241222.clean.json"
+        },
+        {
+          "id": "fa27de12-c13c-11ef-ab79-2dcb73600f34",
+          "path": "/1734965317439-社区设施分布图.clean.kml",
+          "name": "1734965317439-社区设施分布图.clean.kml"
+        }
+      ]
     },
     {
       "id": "1a8c0ee0-c05e-11ef-86f8-41e7c1b4c1f6",

@@ -1,6 +1,7 @@
 import {deleteFile, getFileById, getFiles} from "../dao/FilesDao";
 import * as fs from "fs";
 import * as path from "path";
+import config from "../../config/AppConfig"
 
 // 获取文件列表服务
 export async function listFiles(projectId: string) {
@@ -38,10 +39,11 @@ export async function getFileStream(projectId: string, fileId: string) {
   const file = await getFileById(projectId, fileId);
 
   // 拼接文件的绝对路径
-  const filePath = path.join(__dirname, "../static", file.path);
+  const filePath = path.join(config.staticResourcePath, file.path);
 
   // 检查文件是否存在
   if (!fs.existsSync(filePath)) {
+    console.log(filePath)
     throw new Error("文件不存在！");
   }
 

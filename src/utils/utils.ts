@@ -2,6 +2,14 @@ import {DB} from "../types/DB";
 import {Low} from "lowdb-js";
 import {JSONFilePreset} from "lowdb-js/node";
 import {Message} from "../types/Message";
+import {PassThrough, Readable} from "node:stream";
+import crypto from "crypto";
+import config from "../../config/AppConfig"
+import compressing from "compressing"
+import pump from "pump"
+
+const key = config.AES_KEY
+const iv = config.IV
 
 let db: Low<DB>;
 
@@ -68,4 +76,87 @@ export function parseDatesInObject<T>(obj: T): T {
   }
 
   return parsedObj as T;
+}
+
+export function addFileTag(filename: string, tag: string): string {
+  const extensionIndex = filename.lastIndexOf('.');
+  if (extensionIndex === -1) {
+    // 如果没有扩展名，直接返回原始文件名
+    return filename + '.' + tag;
+  }
+
+  // 获取文件名和扩展名
+  const name = filename.slice(0, extensionIndex);
+  const extension = filename.slice(extensionIndex);
+
+  // 将标记添加到文件名中
+  return `${name}.${tag}${extension}`;
+}
+
+export function replaceFileExtension(filename: string, newExtension: string): string {
+  const extensionIndex = filename.lastIndexOf('.');
+
+  // 如果没有扩展名，直接添加新扩展名
+  if (extensionIndex === -1) {
+    return `${filename}.${newExtension}`;
+  }
+
+  // 替换原有扩展名为新的扩展名
+  const name = filename.slice(0, extensionIndex);
+  return `${name}.${newExtension}`;
+}
+
+
+export async function withMinRandomWait<T>(promise: Promise<T>, minMillisecond: number, maxMillisecond: number): Promise<T> {
+  const promises = [promise, await randomWait(minMillisecond, maxMillisecond)] as const;
+  const results = await Promise.all(promises)
+  return results[0]
+}
+
+
+// export async function gzipBuffer(inputBuffer: Buffer): Promise<Buffer> {
+//   return new Promise((resolve, reject) => {
+//     const gzip = zlib.createGzip();  // 创建 Gzip 压缩流
+//     const chunks: Buffer[] = [];
+//     const outputStream = new PassThrough();
+//     outputStream.on('data', chunk => chunks.push(chunk));
+//     outputStream.on('end', () => resolve(Buffer.concat(chunks)));
+//     outputStream.on('error', reject);
+//     const inputStream = Readable.from(inputBuffer); // 将 Buffer 转成 Readable 流
+//     inputStream.pipe(gzip).pipe(outputStream);
+//   });
+// }
+
+
+export async function gzipBuffer(inputBuffer: Buffer): Promise<Buffer> {
+  return new Promise((resolve, reject) => {
+    const sourceStream = Readable.from(inputBuffer);
+    const gzipStream = new compressing.gzip.FileStream();
+    const chunks: Buffer[] = [];
+    const outputStream = new PassThrough();
+    outputStream.on('data', chunk => chunks.push(chunk));
+    outputStream.on('end', () => resolve(Buffer.concat(chunks)));
+    outputStream.on('error', reject);
+    pump(sourceStream, gzipStream, outputStream);
+  });
+}
+
+// 加密
+export function encrypt(str: string) {
+  try {
+    const cipher = crypto.createCipheriv('aes-128-cbc', key, iv);
+    return cipher.update(str, 'utf8', 'hex') + cipher.final('hex');
+  } catch (err) {
+    throw err;
+  }
+}
+
+export function decrypt(str: string) {
+  try {
+    const decipher = crypto.createDecipheriv('aes-128-cbc', key, iv);
+    return decipher.update(str, 'hex', 'utf8') + decipher.final('utf8');
+  } catch (err) {
+    console.log('解密失败');
+    throw err;
+  }
 }
